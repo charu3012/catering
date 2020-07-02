@@ -1,0 +1,108 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#----------------------------------"
+      },
+      {
+        "line": 2,
+        "value": "# Empty Cucumber .feature file"
+      },
+      {
+        "line": 3,
+        "value": "#----------------------------------"
+      }
+    ],
+    "line": 7,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Check Catering Web Page Features",
+        "description": "",
+        "id": "validate-ibg-catering-web-app-test;check-catering-web-page-features",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14425075500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on catering homepage",
+            "match": {
+              "location": "StepDefinition.user_is_on_catering_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8470399800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter name and email",
+            "match": {
+              "location": "StepDefinition.user_enter_name_and_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter phone no. and comment",
+            "match": {
+              "location": "StepDefinition.user_enter_phone_no_and_comment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click location",
+            "match": {
+              "location": "StepDefinition.user_click_location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter captcha and submit",
+            "match": {
+              "location": "StepDefinition.user_enter_captcha_and_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user closes web app",
+            "match": {
+              "location": "StepDefinition.user_closes_web_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate IBG Catering Web App Test",
+    "description": "",
+    "id": "validate-ibg-catering-web-app-test",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/itexps/features/acku.feature"
+  }
+]

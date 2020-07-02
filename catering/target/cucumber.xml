@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.895683">
+<testcase classname="Validate IBG Catering Web App Test" name="Check Catering Web Page Features" time="22.895683">
+<system-out><![CDATA[Given user is on catering homepage..........................................passed
+Then user enter name and email..............................................passed
+Then user enter phone no. and comment.......................................passed
+Then user click location....................................................passed
+Then user enter captcha and submit..........................................passed
+Then user closes web app....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
